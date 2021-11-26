@@ -1,15 +1,12 @@
 import React from "react"
-import Header from "./Header"
-import Footer from "./Footer"
-import MainContent from "./MainContent"
+import Navbar from "./components/Navbar"
+import Main from "./components/Main"
 
-
-export function App() {
+export default function App() {
     return (
-        <div>
-            <Header />
-            <MainContent />
-            <Footer />
+        <div className="container">
+            <Navbar />
+            <Main />
         </div>
-    );
+    )
 }
