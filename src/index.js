@@ -4,6 +4,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.scss';
 
-import App from "./App"
+// import StaticPage from "./StaticPage"
+// ReactDOM.render(<StaticPage />, document.getElementById("root"))
 
-ReactDOM.render(<App />, document.getElementById("root"))
+import DigitalBusinessCard from "./DigitalBusinessCard"
+ReactDOM.render(<DigitalBusinessCard />, document.getElementById("root"))

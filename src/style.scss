@@ -67,3 +67,63 @@ main {
     font-size: 1.4rem;
     color: #61DAFB;
 }
+
+
+
+// Bussiness Card Styling:
+
+.businessCardContainer {
+    position:  fixed;
+    width: 318px;
+    top: 40px;
+    left: calc(50% - 318px);
+    bottom: 40px;
+    z-index: 100;
+    background-color: #1A1B21;
+    border-radius: 25px;
+ }
+
+.headshot {
+    width: 318px;
+    height: 318px;
+    content: url(./images/kv.jpeg);
+ }
+
+ .employeeSummary{
+     height: 250px;
+     text-align: center;
+ }
+
+.employeeSummary > .name {
+    font-weight: bold;
+    color: white;
+    font-size: 25px
+}
+
+.employeeSummary > .title {
+    color: #F3BF99;
+    font-size: 12.8px;
+}
+
+.employeeSummary > .email {
+    font-weight: bold;
+    color: white;
+    font-size: 10.24px;
+}
+
+
+.employeeSummary > .buttonGroup  {
+    display: flex;
+    align-items: center;
+}
+
+.linkedInButton {
+    color: white;
+    background-color: #5093E2;
+    margin-right: auto;
+}
+
+.emailButton {
+    color: black;
+    background-color: white;
+}
