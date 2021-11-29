@@ -1,6 +1,6 @@
 import React from "react"
-import Navbar from "./components/first_static_page/Navbar"
-import Main from "./components/first_static_page/Main"
+import Navbar from "./Navbar"
+import Main from "./Main"
 
 export default function StaticPage() {
     return (

@@ -1,6 +1,6 @@
 import React from "react"
-import EmployeeHeadshot from "./components/digital_business_card/EmployeeHeadshot"
-import EmployeeSummary from "./components/digital_business_card/EmployeeSummary"
+import EmployeeHeadshot from "./EmployeeHeadshot"
+import EmployeeSummary from "./EmployeeSummary"
 // import EmployeeDetails from "./components/digital_business_card/EmployeeDetails"
 
 export default function DigitalBusinessCard() {

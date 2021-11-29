@@ -1,129 +1,229 @@
+// * {
+//     box-sizing: border-box;
+// }
+
+// body {
+//     margin: 0;
+//     font-family: 'Poppins', sans-serif;
+//     height: 100vh;
+//     background-color:  #282D35;
+// }
+
+// nav {
+//     display: flex;
+//     align-items: center;
+//     background-color: #21222A;
+//     height: 90px;
+//     padding: 30px 25px;
+// }
+
+// .nav--logo_text, .nav--title {
+//     margin: 0;
+// }
+
+// .nav--logo_text {
+//     margin-right: auto;
+//     color: #61DAFB;
+//     font-weight: 700;
+//     font-size: 22px;
+// }
+
+// .nav--title {
+//     color: #DEEBF8;
+//     font-weight: 600;
+// }
+
+// .nav--icon {
+//     height: 30px;
+//     margin-right: 7pm;
+//     content: url(./images/react-icon-small.png);
+// }
+
+// main {
+//     padding: 57px 27px;
+//     color: white;
+//     background-image: url(./images/react-icon-large.png);
+//     background-repeat: no-repeat;
+//     background-position: right 75%;
+// }
+
+// .main--title {
+//     margin: 0;
+//     font-size: 39px;
+//     letter-spacing: -0.05em;
+// }
+
+// .main--facts {
+//     margin-top: 46px;
+//     max-width: 400px;
+// }
+
+// .main--facts > li {
+//     line-height: 19px;
+//     padding-block: 10px;
+// }
+
+// .main--facts > li::marker {
+//     font-size: 1.4rem;
+//     color: #61DAFB;
+// }
+
+
+
+// // Bussiness Card Styling:
+
+// .businessCardContainer {
+//     position:  fixed;
+//     width: 318px;
+//     top: 40px;
+//     left: calc(50% - 318px);
+//     bottom: 40px;
+//     z-index: 100;
+//     background-color: #1A1B21;
+//     border-radius: 25px;
+//  }
+
+// .headshot {
+//     width: 318px;
+//     height: 318px;
+//     border-top-left-radius: 25px;
+//     border-top-right-radius: 25px;
+//     content: url(./images/kv.jpeg);
+//  }
+
+//  .employeeSummary{
+//      height: 250px;
+//      text-align: center;
+//  }
+
+// .employeeSummary > .name {
+//     font-weight: bold;
+//     color: white;
+//     font-size: 25px
+// }
+
+// .employeeSummary > .title {
+//     color: #F3BF99;
+//     font-size: 12.8px;
+// }
+
+// .employeeSummary > .email {
+//     font-weight: bold;
+//     color: white;
+//     font-size: 10.24px;
+// }
+
+
+// .employeeSummary > .buttonGroup  {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .linkedInButton {
+//     color: white;
+//     background-color: #5093E2;
+//     margin-right: auto;
+//     border-radius: 6px;
+// }
+
+// .emailButton {
+//     color: black;
+//     background-color: white;
+//     border-radius: 6px;
+// }
+
+// // AirBnb copy
+
+// nav {
+//     height: 70px;
+//     display: flex;
+//     padding: 20px 36px;
+//     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+// }
+
+// .nav--logo {
+//     max-width: 100px;
+// }
+
+// section {
+//     padding: 20px;
+// }
+
+// .hero {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// .hero--photo {
+//     max-width: 400px;
+//     align-self: center;
+// }
+
+// .hero--header {
+//     margin-bottom: 16px;
+// }
+
+// .hero--text {
+//     margin-top: 0;
+// }
+
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    font-family: Inter, sans;
+    background-color: #639;
     height: 100vh;
-    background-color:  #282D35;
+    font-family: 'Inter', sans-serif;
 }
 
-nav {
+.form-container {
+    height: 100vh;
+    padding: 20px;
     display: flex;
-    align-items: center;
-    background-color: #21222A;
-    height: 90px;
-    padding: 30px 25px;
-}
-
-.nav--logo_text, .nav--title {
-    margin: 0;
-}
-
-.nav--logo_text {
-    margin-right: auto;
-    color: #61DAFB;
-    font-weight: 700;
-    font-size: 22px;
-}
-
-.nav--title {
-    color: #DEEBF8;
-    font-weight: 600;
-}
-
-.nav--icon {
-    height: 30px;
-    margin-right: 7pm;
-    content: url(./images/react-icon-small.png);
-}
-
-main {
-    padding: 57px 27px;
-    color: white;
-    background-image: url(./images/react-icon-large.png);
-    background-repeat: no-repeat;
-    background-position: right 75%;
-}
-
-.main--title {
-    margin: 0;
-    font-size: 39px;
-    letter-spacing: -0.05em;
-}
-
-.main--facts {
-    margin-top: 46px;
-    max-width: 400px;
-}
-
-.main--facts > li {
-    line-height: 19px;
-    padding-block: 10px;
-}
-
-.main--facts > li::marker {
-    font-size: 1.4rem;
-    color: #61DAFB;
-}
-
-
-
-// Bussiness Card Styling:
-
-.businessCardContainer {
-    position:  fixed;
-    width: 318px;
-    top: 40px;
-    left: calc(50% - 318px);
-    bottom: 40px;
-    z-index: 100;
-    background-color: #1A1B21;
-    border-radius: 25px;
- }
-
-.headshot {
-    width: 318px;
-    height: 318px;
-    content: url(./images/kv.jpeg);
- }
-
- .employeeSummary{
-     height: 250px;
-     text-align: center;
- }
-
-.employeeSummary > .name {
-    font-weight: bold;
-    color: white;
-    font-size: 25px
-}
-
-.employeeSummary > .title {
-    color: #F3BF99;
-    font-size: 12.8px;
-}
-
-.employeeSummary > .email {
-    font-weight: bold;
-    color: white;
-    font-size: 10.24px;
-}
-
-
-.employeeSummary > .buttonGroup  {
-    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.linkedInButton {
-    color: white;
-    background-color: #5093E2;
-    margin-right: auto;
-}
-
-.emailButton {
-    color: black;
+.form {
     background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+}
+
+.form--input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.form--submit {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #639;
+    border: none;   
+    cursor: pointer; 
+}
+
+.form--marketing {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.form--marketing > input {
+    margin-right: 10px;
 }

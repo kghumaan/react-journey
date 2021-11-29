@@ -1,4 +1,4 @@
-import { HiOutlineMail, IoLogoLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import React from "react"
 
 export default function EmployeeSummary() {
@@ -9,10 +9,10 @@ export default function EmployeeSummary() {
             <h5 className="email">kv.s.ghumaan@gmail.com</h5>
             <div className="buttonGroup">
                 <button className="emailButton">
-                <HiOutlineMail /> Email
+                <FaEnvelope /> Email
                 </button>
                 <button className="linkedInButton">
-                <IoLogoLinkedin /> LinkedIn
+                <FaLinkedin /> LinkedIn
                 </button>
             </div>
         </div>
